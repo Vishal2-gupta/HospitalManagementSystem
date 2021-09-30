@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="#F6EEA7"
+    android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon"
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:padding="5dp" />
+    <LinearLayout android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="Medium Text"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:textSize="30sp"
+            android:textColor="#4d4d4d" />
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:textColor="#35B0E8"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Page"
+            android:background="#A8E8AA"
+            android:id="@+id/b2"></Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:layout_marginLeft="10dp"
+                android:background="#A8E8AA"
+                android:id="@+id/b1"></Button>
+    </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

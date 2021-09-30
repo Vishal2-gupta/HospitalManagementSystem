@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".P1Patient1">
+    <ImageView
+        android:src="@drawable/i3"
+        android:layout_width="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="300dp"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Patient ID : 88557"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Patient Location : Delhi"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Gender : Female"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Patient Name : Isahya"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Patient Age : 25"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Patient Disease : Arthritis Disease"></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/b1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="About Disease"></Button>
+</LinearLayout>
